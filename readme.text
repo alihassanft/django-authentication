@@ -1,0 +1,32 @@
+Project Overview
+Description
+This project is a Django-based web application that utilizes Django Rest Framework (DRF) for building RESTful APIs. 
+The primary focus is on user authentication and authorization using Simple JWT.
+
+Authentication Flow
+The authentication flow involves obtaining JSON Web Tokens (JWT) to authenticate users. Here are the key steps:
+
+    Registration (Optional):
+    Users can register by providing necessary information.
+    
+    Login:
+    Users authenticate by providing valid credentials (email and password).
+    The server responds with a JWT Token, which the client stores.
+    Access Restricted Endpoints:
+
+    Include the JWT in the Authorization header for requests to secured endpoints.
+    The server validates the token, granting or denying access accordingly.
+
+settings.py:
+
+Configure Django settings,  Simple JWT settings.
+
+
+
+
+
+
+Contact
+If you have any questions about this project, feel free to contact me at 
+    Email: alihassanftt@gmail.com
+    LinkedIn: https://www.linkedin.com/in/realalibaloch/
